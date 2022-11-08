@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Carousel Task</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="intro-div">
+            <h1> Carousel-slide</h1>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carouselImages fade">
+                <img src="https://i.postimg.cc/FHs82gtR/45a2f2e772e914942e2e0bcc1f3f2694.jpg" style="width:100%">
+                <div class="caption col"> image 1 </div>
+            </div>
+            
+            <div class="carouselImages fade">
+                <img src="https://i.postimg.cc/zvPP3NGH/photo-1488590528505-98d2b5aba04b.jpg" style="width:100%">
+                <div class="caption"> image 2 </div>
+            </div>
+
+            <div class="carouselImages fade">
+                <img src="https://i.postimg.cc/1zWqvSGX/chess-checkmate-win-and-lose-picture-id1314506904.jpg" style="width:100%">
+                <div class="caption"> image 3 </div>
+            </div>
+            
+            <div class="carouselImages fade">
+                <img src="https://i.postimg.cc/vZWY9Xx1/financial-technologies-binary-code-background-with-dollar-banknotes-picture-id1345011011.jpg" style="width:100%">
+                <div class="caption"> image 4 </div>
+            </div>
+
+            <div class="carouselImages fade">
+                <img src="https://i.postimg.cc/Y9J2YPRW/paperless-workplace-idea-esigning-electronic-signature-document-an-picture-id1349390515.jpg" style="width:100%">
+                <div class="caption"> image 5</div>
+            </div>
+            
+            <div class="carouselImages fade">
+                <img src="https://i.postimg.cc/0yYGdhXK/cyber-security-it-engineer-working-on-protecting-network-against-picture-id1322517295.jpg" style="width:100%">
+                <div class="caption"> image 6</div>
+            </div>  
+            
+            <a class="previous-icon" onclick="plusCarousels(-1)"> ❮ </a>
+            <a class="next-icon" onclick="plusCarousels(1)"> ❯ </a>
+        </div>
+        <br>
+            
+        <div style="text-align:center">
+            <span class="dot" onclick="currentCarousel(1)"></span> 
+            <span class="dot" onclick="currentCarousel(2)"></span> 
+            <span class="dot" onclick="currentCarousel(3)"></span> 
+            <span class="dot" onclick="currentCarousel(4)"></span> 
+            <span class="dot" onclick="currentCarousel(5)"></span> 
+            <span class="dot" onclick="currentCarousel(6)"></span> 
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
